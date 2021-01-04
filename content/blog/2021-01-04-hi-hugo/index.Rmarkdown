@@ -17,6 +17,11 @@ layout: single
 
 This theme is very neat.
 
+```{r setup}
+source("../../../my-setup.R")
+my_setup()
+```
+
 ```{r}
 plot(1:10)
 ```
