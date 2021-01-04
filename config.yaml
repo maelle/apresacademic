@@ -1,0 +1,72 @@
+baseURL: /
+languageCode: en
+title: Blogophonic
+author: Formspree
+description: A modern, beautiful, and easily configurable blog theme for Hugo.
+copyright: ''
+googleAnalytics: ''
+disqusShortname: ''
+metaDataFormat: yaml
+pygmentsCodeFences: yes
+pygmentsOptions: linenos=table
+pygmentsStyle: friendly
+footnoteReturnLinkContents: '&#8617;'
+paginate: 3
+preserveTaxonomyNames: yes
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
+  tableOfContents:
+    endLevel: 2
+    ordered: no
+    startLevel: 2
+params:
+  bodyLinkColor: blue
+  borderColor: moon-gray
+  buttonBgColor: black
+  buttonHoverBgColor: blue
+  buttonHoverTextColor: white
+  buttonTextColor: near-white
+  favicon: /img/favicon.ico?v=0
+  footerTextColor: silver
+  headingColor: near-black
+  headingFontFamily: sans-serif
+  headlineColor: dark-pink
+  logo: /img/blogophonic-mark-dark.png
+  navLinkColor: near-black
+  orgLocal: Anywhere
+  orgName: RStudio
+  show_social_links: yes
+  sidebarBgColor: light-gray
+  sidebarLinkColor: near-black
+  sidebarTextColor: mid-gray
+  siteBgColor: near-white
+  socialInFooter: yes
+  socialInHeader: no
+  socialInHome: yes
+  textColor: dark-gray
+  textFontFamily: sans-serif
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+menu:
+  header:
+    - name: About
+      title: About Blogophonic
+      url: /about/
+      weight: 1
+    - name: Blog
+      title: Blog
+      url: /blog/
+      weight: 2
+    - name: Projects
+      title: Project Portfolio
+      url: /project/
+      weight: 3
+    - name: Elements
+      title: Element Page
+      url: /elements/
+      weight: 4
