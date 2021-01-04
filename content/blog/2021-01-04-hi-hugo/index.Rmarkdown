@@ -25,3 +25,7 @@ my_setup()
 ```{r}
 plot(1:10)
 ```
+
+```yaml
+layout: single
+```

@@ -10,6 +10,7 @@ metaDataFormat: yaml
 pygmentsCodeFences: yes
 pygmentsOptions: linenos=table
 pygmentsStyle: friendly
+pygmentsUseClasses: true
 footnoteReturnLinkContents: '&#8617;'
 paginate: 3
 preserveTaxonomyNames: yes

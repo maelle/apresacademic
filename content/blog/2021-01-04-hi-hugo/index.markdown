@@ -27,3 +27,7 @@ This theme is very neat.
 
 <img src="unnamed-chunk-1-1.png" width="672" />
 
+<pre class='chroma'>
+<span class='nv'>layout</span><span class='o'>:</span> <span class='nv'>single</span>
+</pre>
+
