@@ -7,7 +7,7 @@ categories: []
 tags: []
 subtitle: ''
 excerpt: ''
-draft: yes
+draft: false
 images:
   - ~
   - ~
