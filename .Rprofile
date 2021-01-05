@@ -13,7 +13,8 @@ options(
   blogdown.knit.on_save = FALSE,
   blogdown.author = "Maëlle Salmon",
   blogdown.ext = ".Rmarkdown",
-  blogdown.subdir = "blog"
+  blogdown.subdir = "blog",
+  blogdown.method = "custom"
 )
 
 # fix Hugo version

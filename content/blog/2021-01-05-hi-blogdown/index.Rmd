@@ -1,0 +1,29 @@
+---
+title: Hi Blogdown
+author: Maëlle Salmon
+date: '2021-01-05'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+excerpt: ''
+draft: yes
+images:
+  - ~
+  - ~
+series: ~
+layout: single
+---
+
+```{r setup, include=FALSE}
+source("../../../my-setup.R")
+my_setup()
+```
+
+So cool. `usethis::use_git()`.
+
+```{r}
+lala <- runif(100)
+hist(lala)
+
+```

@@ -15,7 +15,7 @@ series: ~
 layout: single
 ---
 
-This theme is very neat.
+This theme is very neat. `usethis::use_git()`
 
 ```{r setup}
 source("../../../my-setup.R")
