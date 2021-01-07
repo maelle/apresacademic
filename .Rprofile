@@ -14,7 +14,7 @@ options(
   blogdown.author = "Maëlle Salmon",
   blogdown.ext = ".Rmarkdown",
   blogdown.subdir = "blog",
-  blogdown.method = "custom"
+  blogdown.method = "markdown"
 )
 
 # fix Hugo version
