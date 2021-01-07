@@ -12,9 +12,9 @@ options(
   # to disable knitting Rmd files on save, set this option to FALSE
   blogdown.knit.on_save = FALSE,
   blogdown.author = "Maëlle Salmon",
-  blogdown.ext = ".Rmarkdown",
+  blogdown.ext = ".Rmd",
   blogdown.subdir = "blog",
-  blogdown.method = "markdown"
+  blogdown.method = 'markdown'
 )
 
 # fix Hugo version
